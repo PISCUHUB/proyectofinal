@@ -1,0 +1,221 @@
+body {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+header {
+    background-color: aquamarine;
+    position: relative;
+    border-radius: 20px;
+    display: grid;
+    border: solid;
+    border-color: rgb(223, 146, 53);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.btn-wsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 63px;
+    bottom: 25px;
+    right: 25px;
+    background: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    transition: all 300ms ease;
+}
+
+.btn-wsp:hover {
+    background: #20ba5a;
+}
+
+.btn-inst {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 63px;
+    bottom: 25px;
+    right: 130px;
+    background: #af1752;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(50, 12, 219, 0.966);
+    z-index: 100;
+    transition: all 300ms ease;
+}
+
+.btn-inst:hover {
+    background: #6d082f;
+}
+
+nav {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    grid-column: 3/8;
+    grid-row: 3/3;
+}
+.contac {
+    font-size: 20px;
+    color: rgb(223, 146, 53);
+    grid-column: 9/9;
+    grid-row: 4/4;
+
+}
+#pulseras {
+    background-color: rgb(223, 146, 53);
+    border-radius: 10px;
+    padding: 10px;
+    border: solid;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#pulseras:hover {
+    background: rgb(250, 161, 53);
+}
+
+#dijes {
+    background-color: rgb(223, 146, 53);
+    border-radius: 10px;
+    padding: 10px;
+    border: solid;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#dijes:hover {
+    background: rgb(250, 161, 53);
+}
+
+#anillos {
+    background-color: rgb(223, 146, 53);
+    border-radius: 10px;
+    padding: 10px;
+    border: solid;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#anillos:hover {
+    background: rgb(250, 161, 53);
+}
+
+#aros {
+    background-color: rgb(223, 146, 53);
+    border-radius: 10px;
+    padding: 10px;
+    border: solid;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#aros:hover {
+    background: rgb(250, 161, 53);
+}
+
+.imagen1 {
+    margin: 5px;
+    grid-column: 1/1;
+    grid-row: 5/1;
+}
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+article {
+    padding: 20px;
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.sect1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.sect2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+aside {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+
+.vidjoyas {
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(223, 146, 53);
+}
+
+.descarpdf {
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background: rgb(223, 146, 53);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.descarpdf:hover {
+    background: rgb(250, 161, 53);
+}
+
+footer {
+    border: solid;
+    border-radius: 20px;
+    background-color: rgb(121, 117, 117);
+}
+.imagen2 {
+    margin: 10px;
+}
+.foot__conten {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(231, 178, 108);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.quiensomos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.wsp__inst {
+    text-decoration: none;
+    color:  rgb(231, 178, 108);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.btn-inst:hover {
+    color:  rgb(92, 71, 43);
+}
+.donde__encontrarnos{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
