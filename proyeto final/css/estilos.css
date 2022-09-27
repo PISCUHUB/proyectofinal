@@ -7,11 +7,11 @@ header {
     background-color: aquamarine;
     position: relative;
     border-radius: 20px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border: solid;
     border-color: rgb(223, 146, 53);
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .btn-wsp {
@@ -57,18 +57,23 @@ header {
 }
 
 nav {
+    margin-top: 80px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-    grid-column: 3/8;
-    grid-row: 3/3;
 }
+
 .contac {
+    padding-left: 200px;
+    padding-top: 100px;
     font-size: 20px;
     color: rgb(223, 146, 53);
-    grid-column: 9/9;
-    grid-row: 4/4;
+}
+
+.contac:hover {
+    color: rgb(250, 161, 53);
 
 }
+
 #pulseras {
     background-color: rgb(223, 146, 53);
     border-radius: 10px;
@@ -122,9 +127,14 @@ nav {
 }
 
 .imagen1 {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease;
     margin: 5px;
     grid-column: 1/1;
     grid-row: 5/1;
+}
+.imagen1:hover {
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.7);
 }
 
 .cuerpo {
@@ -205,17 +215,28 @@ footer {
     flex-direction: column;
     margin: 10px;
 }
+.donde__encontrarnos {
+    text-align: center;
+}
+#encuet {
+    font-size: 30px;
+    margin: 15px;
+}
 .wsp__inst {
     text-decoration: none;
     color:  rgb(231, 178, 108);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
+    margin: 5px;
 }
-.btn-inst:hover {
-    color:  rgb(92, 71, 43);
+.wsp__inst:hover {
+    color: rgb(250, 161, 53)
 }
 .donde__encontrarnos{
     margin: 20px;
     display: flex;
     flex-direction: column;
+}
+.tabla {
+    margin: 10px;
 }

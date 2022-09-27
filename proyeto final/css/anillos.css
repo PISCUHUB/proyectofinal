@@ -7,13 +7,12 @@ header {
     background-color: aquamarine;
     position: relative;
     border-radius: 20px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border: solid;
     border-color: rgb(223, 146, 53);
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-
 .btn-wsp {
     position: fixed;
     width: 60px;
@@ -57,16 +56,20 @@ header {
 }
 
 nav {
+    margin-top: 80px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-    grid-column: 3/9;
-    grid-row: 3/3;
 }
+
 .contac {
+    padding-left: 200px;
+    padding-top: 90px;
     font-size: 20px;
     color: rgb(223, 146, 53);
-    grid-column: 9/9;
-    grid-row: 4/4;
+}
+.contac:hover {
+    color: rgb(250, 161, 53);
+
 }
 #inicio {
     color: rgb(91, 10, 151);
@@ -81,6 +84,7 @@ nav {
     background: rgb(250, 161, 53);
 }
 #pulseras {
+    color: rgb(91, 10, 151);
     background-color: rgb(223, 146, 53);
     border-radius: 10px;
     padding: 10px;
@@ -94,6 +98,7 @@ nav {
 }
 
 #dijes {
+    color: rgb(91, 10, 151);
     background-color: rgb(223, 146, 53);
     border-radius: 10px;
     padding: 10px;
@@ -107,6 +112,7 @@ nav {
 }
 
 #anillos {
+    color: rgb(91, 10, 151);
     background-color: rgb(223, 146, 53);
     border-radius: 10px;
     padding: 10px;
@@ -120,6 +126,7 @@ nav {
 }
 
 #aros {
+    color: rgb(91, 10, 151);
     background-color: rgb(223, 146, 53);
     border-radius: 10px;
     padding: 10px;
@@ -133,71 +140,91 @@ nav {
 }
 
 .imagen1 {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease;
     margin: 5px;
     grid-column: 1/1;
     grid-row: 5/1;
 }
-
-div {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
+.imagen1:hover {
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.7);
 }
-
-article {
-    padding: 20px;
-    grid-column: 1/1;
-    grid-row: 1/1;
+/*cuerpo*/
+.centrar {
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-.sect1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-}
-
-.sect2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-}
-
-aside {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    grid-column: 2/2;
-    grid-row: 1/1;
-}
-
-.vidjoyas {
-    border-radius: 10px;
-    border: solid;
-    border-color: rgb(223, 146, 53);
-}
-
-.descarpdf {
-    text-decoration: none;
+.tabla_calculo {
+    margin: 10px;
     padding: 10px;
-    margin: 20px;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-    background: rgb(223, 146, 53);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    grid-column: 2/2;
-    grid-row: 2/2;
-}
-
-.descarpdf:hover {
-    background: rgb(250, 161, 53);
-}
-
-footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-weight: 600;
     border: solid;
     border-radius: 20px;
     background-color: rgb(121, 117, 117);
-    text-align: center;
+    color: rgb(231, 178, 108);
+}
+.enter {
+    height: 40px;
+    width: 100px;
+    border-color: rgb(121, 117, 117);
+    border-radius: 5px;
+    background-color: rgb(231, 178, 108);
+}
+/*footer*/
+footer {
+    border: solid;
+    border-radius: 20px;
+    background-color: rgb(121, 117, 117);
+}
+.imagen2 {
+    margin: 10px;
+}
+.foot__conten {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
     font-size: 20px;
+    color: rgb(231, 178, 108);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.quiensomos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.donde__encontrarnos {
+    text-align: center;
+}
+#encuet {
+    font-size: 30px;
+    margin: 15px;
+}
+.wsp__inst {
+    text-decoration: none;
+    color:  rgb(231, 178, 108);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin: 5px;
+}
+.wsp__inst:hover {
+    color: rgb(250, 161, 53)
+}
+.donde__encontrarnos{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.tabla {
+    margin: 10px;
 }
