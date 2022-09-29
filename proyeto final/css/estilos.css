@@ -1,8 +1,9 @@
-body {
+.todocont {
+    margin-right: 20px;
+    margin-left: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
 header {
     background-color: aquamarine;
     position: relative;
@@ -68,12 +69,16 @@ nav {
     font-size: 20px;
     color: rgb(223, 146, 53);
 }
-
 .contac:hover {
     color: rgb(250, 161, 53);
-
 }
-
+.contac1 {
+    font-size: 20px;
+    color: rgb(223, 146, 53);
+}
+.contac1:hover {
+    color: rgb(250, 161, 53);
+}
 #pulseras {
     background-color: rgb(223, 146, 53);
     border-radius: 10px;

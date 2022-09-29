@@ -1,8 +1,9 @@
-body {
+.todocont {
+    margin-right: 20px;
+    margin-left: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
 header {
     background-color: aquamarine;
     position: relative;
@@ -69,8 +70,15 @@ nav {
 }
 .contac:hover {
     color: rgb(250, 161, 53);
-
 }
+.contac1 {
+    font-size: 20px;
+    color: rgb(223, 146, 53);
+}
+.contac1:hover {
+    color: rgb(250, 161, 53);
+}
+
 #inicio {
     color: rgb(91, 10, 151);
     background-color: rgb(223, 146, 53);
